@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.profile-parent{
+    background-color: white;
+    min-height: 100vh;
+}
+
+.profile-parent nav{
+    background-color: rgb(67, 203, 221);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    box-shadow: 0 0px 5px black
+}
+
+.profile-parent nav ul {
+    width : 50%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-parent nav ul li{
+    margin-right: 4%;
+    font-family: 'Poppins',cursive;
+    font-size: 1.2rem;
+}
+
+.profile-main{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-photo-name{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 30px;
+    box-shadow: 0 0 1px black;
+}
+
+.user-photo-name img{
+    // border: 5px solid rgb(35, 34, 34,0.9);
+    border-radius: 20px;
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+}
+
+.user-name-data{
+    margin-left: 3%;
+    font-weight: 100;
+}
+
+.user-name-data h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.user-name-data h3{
+    margin-top: -4%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: grey;
+}
+
+.user-about p{
+    font-size: 0.95rem;
+    font-weight: 200;
+    line-height: 2;
+    color: grey;
+}
+
+.user-stats-graph{
+    display: flex;
+}
+
+.user-stats{
+    display: flex;
+    flex-direction: column;
+    width : 30%
+}
+
+.user-stats h1{
+    font-family: 'Poppins',cursive;
+    font-size: 1.5rem;
+}
+
+.user-stat-icon{
+    width : 50px;
+    height: 50px;
+}
+
+.user-stat-icon img{
+    width : 40px;
+    height: 40px;
+}
+
