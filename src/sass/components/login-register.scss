@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 
-.auth-form-container, .login-form, .register-form {
+.auth-form-container {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    margin: 0.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg, #64347a, #a41bff);
+    // background-color: rgb(62, 56, 68);
+  }
+
+  .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
   }
   
-  @media screen and (min-width: 600px) {
-    .auth-form-container {
-      padding: 5rem;
-      border: 1px solid white;
-      border-radius: 10px;
-      margin: 0.5rem;
-    }
-  }
+  // @media screen and (min-width: 600px) {
+  //   .auth-form-container {
+  //     padding: 5rem;
+  //     border: 1px solid white;
+  //     border-radius: 10px;
+  //     margin: 0.5rem;
+  //     min-height: 100vh;
+  //     align-items: center;
+  //     justify-content: center;
+  //     color: white;
+  //     background-image: linear-gradient(79deg, #64347a, #a41bff);
+  //   }
+  // }
 
   .login-signUp{
     margin-top: 10px;
@@ -31,6 +48,7 @@
     padding: 1rem;
     border: none;
     border-radius: 10px;
+    width: auto;
   }
   
   button {
@@ -40,10 +58,12 @@
     border-radius: 50px;
     cursor: pointer;
     color: rgb(146, 26, 161);
+    width: 100%;
   }
   
   .link-btn {
     background: none;
     color: white;
     text-decoration: underline;
+    width: auto;
   }
