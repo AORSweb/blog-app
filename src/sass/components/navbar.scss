@@ -1,0 +1,39 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: inherit;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    color: black;
+    align-items: center;
+    padding: 0.8em 2em 0.8em 4em;
+    justify-content: space-between;
+}
+
+.home-section{
+    display: flex;
+    flex-direction: row;
+    width:20%;
+    gap:2em;
+}
+
+.home-section:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.search--bar{
+   width: 40%;
+}
+
+input{
+    width:-webkit-fill-available;
+    border-radius: 2rem;
+}
