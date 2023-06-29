@@ -1,7 +1,15 @@
 import React from 'react';
 import '../sass/components/navbar.scss';
+// import { useNavigate } from "react-router-dom";
+
 
 function Navbar() {
+  // let navigate = useNavigate(); 
+
+  // const routeChange = ()=>{
+  //     let path = '/login'; 
+  //     navigate(path);
+  // }
 
   return (
     <div className='navbar'>
@@ -14,7 +22,8 @@ function Navbar() {
             <div>Write a Blog</div>
         </div> 
         
-        <div> Profile</div>
+        {/* <div> Profile/<a className='login-section' onClick ={routeChange}>Login</a></div> */}
+        <div>Profile</div>
     </div>
   )
 }
