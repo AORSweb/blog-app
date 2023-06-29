@@ -35,28 +35,31 @@ const Profile = () => {
                 <div className="user-stats-graph">
                     <div className="user-stats">
                         <h1>Stats.</h1>
-                        <div className="user-stats-likes">
+                        <div className="user-stats-like">
                             <div className="user-stat-icon">
                                 <img src="logo192.png" alt="icon"/>
                             </div>
-                            <div>
+                            <div className="user-stat-data">
                                 <h1>50</h1>
-                                <h4>Likes</h4>
+                                <h4>Blogs Likes</h4>
                             </div>
                         </div>
                         <div className="user-stats-shares">
                             <div className="user-stat-icon">   
                                 <img src="logo192.png" alt="icon"/>
                             </div>
-                            <div>
+                            <div  className="user-stat-data">
                                 <h1>50</h1>
-                                <h4>Likes</h4>
+                                <h4>Blogs Shares</h4>
                             </div>
                         </div>
                     </div>
 
                     <div className="user-graph">
                         <h1>Graph.</h1>
+                        <div className="user-graph-chart">
+                            Chart Here
+                        </div>
                     </div>
 
                 </div>
